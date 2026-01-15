@@ -72,5 +72,11 @@ Removes coffee items from DynamoDB with safety checks. This function handles HTT
 
 Next, create an API Gateway to expose these Lambda functions as REST APIs, enabling external applications to interact with  coffee shop backend.
 
+Create integration to invoke API. 
+<img width="1316" height="782" alt="Screenshot 2026-01-15 at 10 09 26 AM" src="https://github.com/user-attachments/assets/ac84628b-0880-4a26-a747-7fa93f67335a" />
+
+Test invocation: 
+<img width="1244" height="190" alt="Screenshot 2026-01-15 at 10 10 54 AM" src="https://github.com/user-attachments/assets/95f65204-8b6e-4b8a-b124-73286b732f0c" />
+
 
 
