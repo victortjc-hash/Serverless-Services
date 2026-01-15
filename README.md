@@ -77,6 +77,15 @@ Create integration to invoke API.
 
 Test invocation: 
 <img width="1244" height="190" alt="Screenshot 2026-01-15 at 10 10 54 AM" src="https://github.com/user-attachments/assets/95f65204-8b6e-4b8a-b124-73286b732f0c" />
+create the rest of integrations:
 
+PUT Route Setup (Update Operations)
+DELETE Route Setup (Delete Operations)
+POST Route Setup (Create Operations)
+
+<img width="1188" height="697" alt="Screenshot 2026-01-15 at 10 35 22 AM" src="https://github.com/user-attachments/assets/a43c1901-421d-4a8a-a296-021209c3345e" />
+
+Next, Frontend Development & Amplify Deployment
+This section covers the deployment of our React-based coffee shop inventory management frontend using AWS Amplify.
 
 
