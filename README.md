@@ -54,6 +54,23 @@ deleteCoffee: Remove coffee items
 Function 1: getCoffee (Read Operation)
 Retrieves coffee items from DynamoDB table. Supports both getting all items and getting specific items by ID.
 
+Updated the function as per below:
+<img width="1304" height="772" alt="Screenshot 2026-01-15 at 9 37 22 AM" src="https://github.com/user-attachments/assets/32c92af1-6dab-4236-b1ef-f6e671233a1c" />
+
+Function 2: postCoffee (Create Operation)
+Adds new coffee items to the DynamoDB table with validation and error handling. This function handles HTTP POST requests to create new coffee entries in our inventory.
+<img width="1332" height="799" alt="Screenshot 2026-01-15 at 9 45 03 AM" src="https://github.com/user-attachments/assets/8587a894-794c-444b-9467-c1ee6ceb57ad" />
+
+Function 3: updateCoffee (Update Operation)
+Modifies existing coffee items in DynamoDB with partial update support. This function handles HTTP PUT requests to update coffee inventory details like price, availability, or description.
+<img width="1317" height="707" alt="Screenshot 2026-01-15 at 9 48 25 AM" src="https://github.com/user-attachments/assets/5735d30d-2da1-4e2b-bb7f-1dabd08c4fbd" />
+
+Function 4. deleteCoffee (Delete Operation)
+Removes coffee items from DynamoDB with safety checks. This function handles HTTP DELETE requests to remove coffee items from the inventory, with proper validation to prevent accidental deletions.
+
+<img width="1225" height="739" alt="Screenshot 2026-01-15 at 9 55 58 AM" src="https://github.com/user-attachments/assets/65bd2659-3059-4735-be77-e27904aa846b" />
+
+Next, create an API Gateway to expose these Lambda functions as REST APIs, enabling external applications to interact with  coffee shop backend.
 
 
 
