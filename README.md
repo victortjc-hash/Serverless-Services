@@ -34,4 +34,26 @@ React.js – Modern frontend framework for inventory management UI
 Architectural Diagram
 <img width="796" height="445" alt="Screenshot 2026-01-14 at 4 22 43 PM" src="https://github.com/user-attachments/assets/e8eff8f4-e017-420c-b128-61067c0b9b9a" />
 
+1. Created a Dynamo table with attributes: 
+<img width="1289" height="790" alt="Screenshot 2026-01-15 at 8 46 02 AM" src="https://github.com/user-attachments/assets/749a1549-c482-44d1-805c-78306f7731c1" />
+
+2. Created Roles and permissions via IAM
+<img width="1298" height="778" alt="Screenshot 2026-01-15 at 8 58 23 AM" src="https://github.com/user-attachments/assets/5628ac21-b5fc-4cd7-8f18-edc2c93a3308" />
+
+Next, Create a Lambda layer and functions.
+<img width="1314" height="710" alt="Screenshot 2026-01-15 at 9 20 14 AM" src="https://github.com/user-attachments/assets/6629b66f-1ee6-4c8e-9a08-9811e8c0fc27" />
+Part 2: Creating Lambda Functions
+
+Create four Lambda functions for complete CRUD operations:
+
+getCoffee: Retrieve coffee items from DynamoDB
+postCoffee: Add new coffee items
+updateCoffee: Modify existing coffee items
+deleteCoffee: Remove coffee items
+
+Function 1: getCoffee (Read Operation)
+Retrieves coffee items from DynamoDB table. Supports both getting all items and getting specific items by ID.
+
+
+
 
