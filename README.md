@@ -88,4 +88,17 @@ POST Route Setup (Create Operations)
 Next, Frontend Development & Amplify Deployment
 This section covers the deployment of our React-based coffee shop inventory management frontend using AWS Amplify.
 
+Created a fork from github to my github:
+<img width="992" height="753" alt="Screenshot 2026-01-15 at 10 41 12 AM" src="https://github.com/user-attachments/assets/a1f1ccc1-eafe-4f83-a1bc-1c32766abdf8" />
+
+2- Deploy to AWS Amplify
+
+<img width="1298" height="774" alt="Screenshot 2026-01-15 at 10 50 19 AM" src="https://github.com/user-attachments/assets/991c202a-d537-40bf-b6aa-578c4a71e9cd" />
+
+<img width="779" height="534" alt="Screenshot 2026-01-15 at 10 50 05 AM" src="https://github.com/user-attachments/assets/e42f0a98-8fd1-43d5-9270-18292abeacf7" />
+
+3. Configure CORS for Production
+<img width="1274" height="717" alt="Screenshot 2026-01-15 at 11 02 07 AM" src="https://github.com/user-attachments/assets/61eca7c4-aac7-455c-9981-8a142e5c98e4" />
+
+4. 
 
